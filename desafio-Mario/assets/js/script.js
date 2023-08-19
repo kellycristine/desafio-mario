@@ -26,9 +26,12 @@ boxButton.addEventListener("click", () => {
     cinema.style.display = "none";
     encarte.style.display = "none";
 
+
+
+    
     main.innerHTML += `<iframe
     class="trailer"
-    src="./assets/images/trailer.mp4"
+    src="https://www.universalpics.com.br/tl_files/content/hero/smb_trailer.mp4"
     frameborder="0"
   ></iframe>`;
   }, 2000);
