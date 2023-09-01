@@ -3,8 +3,8 @@ marioOut = document.querySelector(".marioOut");
 bullet = document.querySelector(".bullet");
 footer = document.querySelector("footer");
 main = document.querySelector("main");
-cinema = document.querySelector(".cinema")
-encarte = document.querySelector(".encarte")
+cinema = document.querySelector(".cinema");
+encarte = document.querySelector(".encarte");
 
 function fly() {
   boxButton.style.animation = "fly 2s ease-in-out";
@@ -26,12 +26,9 @@ boxButton.addEventListener("click", () => {
     cinema.style.display = "none";
     encarte.style.display = "none";
 
-
-
-    
     main.innerHTML += `<iframe
     class="trailer"
-    src="https://www.universalpics.com.br/tl_files/content/hero/smb_trailer.mp4"
+    src="./assets/images/trailer.mp4"
     frameborder="0"
   ></iframe>`;
   }, 2000);
